@@ -1,4 +1,4 @@
-# Few-Round-Learning
+# Few-Round Learning for Federated Learning
 Official Pytorch implementation for the paper titled "Few-Round Learning for Federated Learning"  presented on NeurIPS 2021.
 ![FRL_Overview](https://user-images.githubusercontent.com/54431060/177270454-9e95a2fb-b00b-4a48-acf8-6fb10e1a6b40.png)
 
