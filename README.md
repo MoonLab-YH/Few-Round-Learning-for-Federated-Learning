@@ -26,3 +26,24 @@ To load anaconda virtual environment,
 conda env create -f FRL_env.yaml
 ```
 
+# Running Code
+```
+#For miniImageNet 
+
+cd /miniImageNet/[miniImageNet][IID] or /miniImageNet/[miniImageNet][Non-IID]
+python miniimagenet_train.py        --gpu {GPU device number}
+                                    --update_lr {task-lever inner update learning rate}
+                                    --meta-lr {meta-level outer learning learning rate}
+                                    --round {number of communication round}
+                                    --n_user {number of clients}                                  
+                                    
+#For CIFAR-100
+
+cd /CIFAR100/[CIFAR100][IID] or /CIFAR100/[CIFAR100][Non-IID]
+python cifar100_train.py            --gpu {GPU device number}
+                                    --update_lr {task-lever inner update learning rate}
+                                    --meta-lr {meta-level outer learning learning rate}
+                                    --round {number of communication round}
+                                    --n_user {number of clients}
+```
+
